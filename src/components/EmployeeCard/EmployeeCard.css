@@ -1,0 +1,47 @@
+.employee-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(237, 208, 163);
+  width: 380px;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.reminder {
+  font-weight: bold;
+  color: var(--accent-color);
+  margin-top: 0.5em;
+}
+
+.employee-card.development {
+  border-left: 5px solid #71d8b0;
+}
+
+.employee-card.management {
+  border-left: 5px solid #946dd2;
+}
+
+.employee-card.design {
+  border-left: 5px solid #eb5638;
+}
+
+.employee-card.devops {
+  border-left: 5px solid #49e45b;
+}
+
+.employee-card.research {
+  border-left: 5px solid #c51743;
+}
+
+.employee-card.hr {
+  border-left: 5px solid #2f7c86;
+}
