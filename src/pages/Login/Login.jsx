@@ -19,7 +19,7 @@ const Login = ({ loginHandler }) => {
   return (
     <div>
       <form onSubmit={handleLogin}>
-        <h2>Use your Credentials</h2>
+        <h2>Use your Credentials!</h2>
         <label>
           Username:{" "}
           <input
